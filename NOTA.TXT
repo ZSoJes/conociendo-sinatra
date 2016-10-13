@@ -1,0 +1,11 @@
+TExistio un problema con la gema pg
+la solucion fue usar el paquete postgresql-devel, resuelve el problema
+del pg_config catalogado como missing.
+
+sudo apt-get install libpq-dev
+
+para levantar el servicio de sinatra usar el comando
+shotgun config.ru
+
+por default sinatra ocupa el puerto 9393
+http://localhost:9393/

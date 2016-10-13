@@ -1,0 +1,75 @@
+  <h1>Bienvenido a Sinatra!</h1>
+  <p>Este es un esqueleto de sinatra que armamos para ti</p>
+<br>
+<form action="/" method="get">
+Introduce un texto(GET)("/"):<br>
+ <input type="text" name="get_de_raiz" placeholder="Introduce cualquier texto">
+ <input type="submit">
+</form>
+<br>
+
+                        <hr>
+
+<form action="/cool_url" method="get">
+ Introduce una texto(GET):<br>
+ <input type="text" name="mi_Get_cool" placeholder="Introduce cualquier texto"><br><br>
+
+  Elige un platillo<br>
+ <input type="radio" name="platillo" value="Ensalada_Verde"> Ensalada Verde<br>
+ <input type="radio" name="platillo" value="Taquitos_de_Filete" checked> Taquitos de Filete<br>
+ <input type="radio" name="platillo" value="Filete_a_la_Pimienta"> Filete a la Pimienta<br><br>
+
+Que cosas te interesan?<br>
+ <input type="checkbox" name="option1" value="Tecnologia"> Tecnologia<br>
+ <input type="checkbox" name="option2" value="Musica" checked> Musica<br>
+ <input type="checkbox" name="option3" value="Cine"> Cine<br><br><br>
+
+Selecciona un genero?
+ <select name="mi_genero">
+   <option value="Masculino">Masculino</option>
+   <option value="Femenino">Femenino</option>
+ </select><br><br>
+
+ Este es un TextArea para comentarios
+ <textarea cols="40" rows="5" name="mi_textarea1" placeholder="Deja un comentario."></textarea><br><br>
+
+ <input type="submit">
+</form>
+<br>
+
+                        <hr>
+
+<form action="/cool_url" method="post">
+
+<input type="text" name="post[title]">
+<input type="text" name="post[price]">
+<textarea name="post[description]"></textarea>
+
+ Introduce una texto(POST):<br>
+ <input type="text" name="mi_Post_cool" placeholder="Introduce cualquier texto"><br><br>
+
+ Elige una pelicula<br>
+ <input type="radio" name="peli" value="Matrix"> Matrix<br>
+ <input type="radio" name="peli" value="Cars" checked> Cars<br>
+ <input type="radio" name="peli" value="Looper"> Looper<br><br>
+
+ Que niveles escolares has terminado?<br>
+ <input type="checkbox" name="option1" value="Secundaria"> Secundaria<br>
+ <input type="checkbox" name="option2" value="Preparatoria"> Preparatoria<br>
+ <input type="checkbox" name="option3" value="Universidad"> Universidad<br><br><br>
+
+Selecciona un genero?
+<select name="mi_genero">
+  <option value="Masculino">Masculino</option>
+  <option value="Femenino">Femenino</option>
+</select><br><br>
+
+ Este es un TextArea para comentarios
+ <textarea cols="40" rows="5" name="mi_textarea2" placeholder="Deja un comentario."></textarea><br><br>
+
+ <input type="submit">
+</form>
+<br>
+
+
+
